@@ -8,7 +8,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const texts = [
   "Hello! My name is ",
-  "你好,我叫",
+  "你好,我係",
   "こんにちは、私の名前は",
   "Bonjour, je m'appelle ",
   "Hola, mi nombre es ",
@@ -16,7 +16,7 @@ const texts = [
   "Hallo, mein Name ist ",
   "Привет, меня зовут ",
 ];
-const sequence=["i’m a Teacher assistant.","i’m a Software developer.","i’m a body builder"];
+const sequence=["I am a Teaching Assistant.","I am a Software Developer.","I am a Body Builder"];
 const Hero = () => {
   return (
     <section className={`relative w-full h-screen mx-auto`}>

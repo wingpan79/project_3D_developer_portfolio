@@ -8,21 +8,20 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  PHP,
   tailwind,
   nodejs,
-  mongodb,
+  mysql,
   git,
-  figma,
+  python,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  Learn,
+  HBS,
   carrent,
   jobit,
   tripguide,
-  threejs,
+  aws,
+  House,
 } from "../assets";
 
 export const navLinks = [
@@ -46,15 +45,15 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Database Designer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Agile Development",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Linux",
     icon: creator,
   },
 ];
@@ -81,8 +80,8 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "PHP",
+    icon: PHP,
   },
   {
     name: "Tailwind CSS",
@@ -93,20 +92,20 @@ const technologies = [
     icon: nodejs,
   },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "MySql",
+    icon: mysql,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "AWS",
+    icon: aws,
   },
   {
     name: "git",
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "python",
+    icon: python,
   },
   {
     name: "docker",
@@ -116,55 +115,41 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "IT Support Assistant",
+    company_name: "Sovereign House GH,Bury",
+    icon: House,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "May 2024 - Persent",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Provided technical support to staff, troubleshooting hardware and software issues to ensure seamless operations.",
+      "Assisted in setting up and maintaining IT equipment, gaining strong skills in problem-solving and attention to detail.",
+      "Gained familiarity with customer-focused support processes, collaborating with team members to quickly resolve IT challenges.",
+      "Developed strong communication skills by explaining technical solutions in simple terms to non-technical users",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Teaching Assistant",
+    company_name: "Sovereign House GH,Salford",
+    icon: Learn,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Sep 2024 - Persent",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Assisted the teacher with setting up computers and projectors for classroom activities.",
+      "Helped answer students' questions during lessons, providing support with classroom exercises.",
+      "Taught children basic coding skills using age-appropriate programming languages (e.g., Scratch, Python).",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Analyst Programmer",
+    company_name: "Healthology BIOsciences Limited,Hong Kong",
+    icon: HBS,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Jan 2015 - Feb 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed robust software applications using JavaScript, MySQL, and PHP,Laravel, contributing to the efficiency and functionality of key business operations.",
+      "Implemented AWS services (S3, Load Balancer, EC2, RDS) for hosting applications across multiple countries, improving scalability and reliability.",
+      "Generated and customized reports with Tableau and Metabase based on marketing and finance department requirements, providing actionable insights that supported data-driven decision-making.",
+      "Utilized GitLab for version control and integrated it with Jira, enabling seamless tracking of code changes, issue management, and project progress.",
     ],
   },
 ];
@@ -198,25 +183,21 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Aglie Octopus Energy Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A simple, interactive dashboard that displays tomorrow's electricity prices for the Octopus Energy Agile tariff, helping you identify the cheapest and most expensive times to use electricity.",
     tags: [
       {
-        name: "react",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Rest API",
         color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://wingpan79.github.io/Aglie-Octopus-Energy-Dashboard/",
   },
   {
     name: "Job IT",
