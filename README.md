@@ -369,25 +369,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "School Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The School Management System is a web-based application designed to manage school operations, including student enrollment, attendance tracking, and user authentication for admins, teachers.",
     tags: [
       {
-        name: "nextjs",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/wingpan79/School-Management-System",
   },
 ];
 

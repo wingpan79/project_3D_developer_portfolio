@@ -200,12 +200,12 @@ const projects = [
     source_code_link: "https://wingpan79.github.io/Aglie-Octopus-Energy-Dashboard/",
   },
   {
-    name: "Job IT",
+    name: "Product API System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A FastAPI-based RESTful API for managing products, categories, and images, with token-based authentication and middleware for secure access. It includes a feature to convert strings into labeled PDFs and uses MySQL for data storage, all containerized with Docker.",
     tags: [
       {
-        name: "react",
+        name: "Python",
         color: "blue-text-gradient",
       },
       {
@@ -213,33 +213,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Docker",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/wingpan79/FastAPI",
   },
   {
-    name: "Trip Guide",
+    name: "School Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "The School Management System is a web-based application designed to manage school operations, including student enrollment, attendance tracking, and user authentication for admins, teachers.",
     tags: [
       {
-        name: "nextjs",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "MySQL",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/wingpan79/School-Management-System",
   },
 ];
 
